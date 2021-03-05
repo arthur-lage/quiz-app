@@ -2,7 +2,7 @@
 
 ---
 
-![Imagem 1](https://github.com/arthur-lage/quiz-app/blob/main/assets/imagem_2021-03-05_175736.png)
+![Imagem 1](https://github.com/arthur-lage/quiz-app/blob/main/assets/imagem_2021-03-05_180910.png)
 
 # ✉️ About the project
 
