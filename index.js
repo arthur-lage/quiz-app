@@ -107,8 +107,8 @@ submitBtn.addEventListener('click', () => {
             if(currentQuiz < quizData.length) {
                 loadQuiz()
             } else {
-                questionsBox.innerHTML = `<h2>Você acertou ${score} em ${quizData.length} perguntas! Parabéns</h2>
-                <button style="margin-top: 4rem;" onclick="location.reload()">Reiniciar Quiz</button>`
+                questionsBox.innerHTML = `<h2>You've got ${score}/${quizData.length} correct questions! Congratulations!</h2>
+                <button style="margin-top: 4rem;" onclick="location.reload()">Restart Quiz</button>`
                 submitBtn.remove()
             }
         
