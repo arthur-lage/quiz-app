@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&family=Open+Sans+Condensed:wght@300&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main>
+
+        <h1>Quiz</h1>
+
+        <section>
+            <div class="questions" id="questionsBox">
+                <div id="questionsHeader">
+                    <p id="question"></p>
+                    <input class="options" type="radio" name="resposta" id="a">
+                    <label id="a_text" for="a"></label>
+                    <br>
+                    <input class="options" type="radio" name="resposta" id="b">
+                    <label id="b_text" for="b"></label>
+                    <br>
+                    <input class="options" type="radio" name="resposta" id="c">
+                    <label id="c_text" for="c"></label>
+                    <br>
+                    <input class="options" type="radio" name="resposta" id="d">
+                    <label id="d_text" for="d"></label>
+                </div>
+            </div>
+            <button id="check-answer-button">Confirmar resposta</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Arthur Lage</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
